@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\RelatorioUtilizacaoHilum</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Dados.dll">
+      <publishTime>04/24/2019 09:22:23</publishTime>
+    </File>
+    <File Include="bin/Dados.pdb">
+      <publishTime>04/24/2019 09:22:23</publishTime>
+    </File>
+    <File Include="bin/RelatorioUtilizacaoHilum.dll">
+      <publishTime>04/24/2019 17:08:03</publishTime>
+    </File>
+    <File Include="bin/RelatorioUtilizacaoHilum.pdb">
+      <publishTime>04/24/2019 17:08:03</publishTime>
+    </File>
+    <File Include="bin/Repositorio.dll">
+      <publishTime>04/24/2019 11:01:01</publishTime>
+    </File>
+    <File Include="bin/Repositorio.pdb">
+      <publishTime>04/24/2019 11:01:01</publishTime>
+    </File>
+    <File Include="CSS/div.flutuante.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/estilo.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/iehacks.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/impressao.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/main.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/recibos.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/relatorios.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/ui.all.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/ui.autocomplete.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/ui.datepicker.css">
+      <publishTime>05/12/2014 11:37:22</publishTime>
+    </File>
+    <File Include="CSS/ui.theme.css">
+      <publishTime>05/12/2014 14:28:40</publishTime>
+    </File>
+    <File Include="Filtros.aspx">
+      <publishTime>05/23/2014 20:13:31</publishTime>
+    </File>
+    <File Include="image/ui-icons_222222_256x240.png">
+      <publishTime>05/12/2014 14:24:34</publishTime>
+    </File>
+    <File Include="image/ui-icons_454545_256x240.png">
+      <publishTime>05/12/2014 14:24:34</publishTime>
+    </File>
+    <File Include="image/ui-icons_888888_256x240.png">
+      <publishTime>05/12/2014 14:24:34</publishTime>
+    </File>
+    <File Include="image/unimed.jpg">
+      <publishTime>05/12/2014 14:24:34</publishTime>
+    </File>
+    <File Include="Imagens/baseLogin3.jpg">
+      <publishTime>02/17/2014 16:43:02</publishTime>
+    </File>
+    <File Include="Imagens/bt_voltar.png">
+      <publishTime>05/23/2014 19:35:01</publishTime>
+    </File>
+    <File Include="Imagens/loginHilum3.png">
+      <publishTime>05/20/2014 14:57:44</publishTime>
+    </File>
+    <File Include="Imagens/LogoUNIMED.PNG">
+      <publishTime>05/16/2014 15:08:40</publishTime>
+    </File>
+    <File Include="Imagens/logo_univsf.png">
+      <publishTime>09/19/2017 15:10:49</publishTime>
+    </File>
+    <File Include="Imagens/notepad.jpg">
+      <publishTime>05/16/2014 15:01:44</publishTime>
+    </File>
+    <File Include="Imagens/print_edit.gif">
+      <publishTime>05/16/2014 16:38:46</publishTime>
+    </File>
+    <File Include="Imagens/relatorioUtilizacao.jpg">
+      <publishTime>05/09/2014 16:21:52</publishTime>
+    </File>
+    <File Include="JS/jquery-1.8.2.js">
+      <publishTime>05/12/2014 11:42:38</publishTime>
+    </File>
+    <File Include="JS/jquery-ui.css">
+      <publishTime>05/12/2014 11:23:18</publishTime>
+    </File>
+    <File Include="JS/jquery-ui.js">
+      <publishTime>05/12/2014 11:43:08</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/24/2019 09:00:54</publishTime>
+    </File>
+    <File Include="Relatorio.aspx">
+      <publishTime>04/24/2019 17:04:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>05/09/2014 15:48:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>05/09/2014 15:48:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>05/09/2014 15:48:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/24/2019 11:01:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

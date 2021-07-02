@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* container do popup */
+	.ui-resizable-handle { position: absolute; display: block; font-size: 0.1px; }
+	.ui-resizable-e { cursor: e-resize; width: 20px; right: -10px; top: 0; height: 100%;  }
+	.ui-resizable-w { cursor: w-resize; width: 30px; left: 0; top: 0; height: 100%;  }
+	.ui-resizable-s { cursor: s-resize; height: 20px; width: 100%; bottom: -5px; left: 0;}
+	.ui-resizable-se { cursor: se-resize; width: 20px; height: 20px; right:0; bottom: 0;} /*resizable-se.png*/
+	.proxy {border:1px dotted gray;background: url(../imagens/proxy.png)}
+	
+	/* POPUP SERVMATMED */
+	.containerPlus { font-family:Verdana; font-size:11px}
+	.containerPlus .spacer { margin-top:10px}
+	.containerPlus .buttonBar { display:inline-block; position:absolute;top:8px; left:410px; float:right; width:35px; margin-top:0px; margin-right:15px}
+	.containerPlus .buttonBar img { margin-left:5px; margin-top:3px;}
+	.containerPlus .content { margin-right:-5px; padding-right:5px;overflow:auto}
+	
+	/* POPUP PRESTADOR */
+	.containerPlusPrest { font-family:Verdana; font-size:11px}
+	.containerPlusPrest .spacer { margin-top:10px}
+	.containerPlusPrest .buttonBar { display:inline-block; position:absolute;top:8px; left:410px; float:right; width:35px; margin-top:0px; margin-right:15px}
+	.containerPlusPrest .buttonBar img { margin-left:5px; margin-top:3px;}
+	.containerPlusPrest .content { margin-right:-5px; padding-right:5px;overflow:auto}
+	
+	/* POPUP CID */
+	.containerPlusCid { font-family:Verdana; font-size:11px}
+	.containerPlusCid .spacer { margin-top:10px}
+	.containerPlusCid .buttonBar { display:inline-block; position:absolute;top:8px; left:360px; float:right; width:35px; margin-top:0px; margin-right:15px}
+	.containerPlusCid .buttonBar img { margin-left:5px; margin-top:3px;}
+	.containerPlusCid .content { margin-right:-5px; padding-right:5px;overflow:auto}
+	
+
+	/* container default SERVMATMED */
+	.containerPlus{}
+	.containerPlus .no{ background: url('../imagens/no.png') top left no-repeat; }
+	.containerPlus .ne{ background: url('../imagens/ne.png') top right no-repeat; margin-left: 21px;}
+	.containerPlus .ne img{left:-10px; top:-10px}
+	.containerPlus .n { margin-right: 20px;}
+	.containerPlus .n { display:block; padding-top:8px; height:33px; max-height:26px; font-size:11px; white-space:nowrap; overflow:hidden;}
+	.containerPlus .n a{ text-decoration:none;color:#000; font-size:15px;}
+	.containerPlus .o { background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlus .e { background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlus .c { background: url('../imagens/c.png'); margin-right: 23px; margin-top: 0; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlus .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlus .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlus .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 23px;}
+	
+	/* container default PRESTADOR */
+	.containerPlusPrest{}
+	.containerPlusPrest .no{ background: url('../imagens/no.png') top left no-repeat; }
+	.containerPlusPrest .ne{ background: url('../imagens/ne.png') top right no-repeat; margin-left: 21px;}
+	.containerPlusPrest .ne img{left:-10px; top:-10px}
+	.containerPlusPrest .n { margin-right: 20px;}
+	.containerPlusPrest .n { display:block; padding-top:8px; height:33px; max-height:26px; font-size:11px; white-space:nowrap; overflow:hidden;}
+	.containerPlusPrest .n a{ text-decoration:none;color:#000; font-size:15px;}
+	.containerPlusPrest .o { background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlusPrest .e { background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlusPrest .c { background: url('../imagens/c.png'); margin-right: 23px; margin-top: 0; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlusPrest .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlusPrest .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlusPrest .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 23px;}
+	
+	/* container default CID */
+	.containerPlusCid{}
+	.containerPlusCid .no{ background: url('../imagens/no.png') top left no-repeat; }
+	.containerPlusCid .ne{ background: url('../imagens/ne.png') top right no-repeat; margin-left: 21px;}
+	.containerPlusCid .ne img{left:-10px; top:-10px}
+	.containerPlusCid .n { margin-right: 20px;}
+	.containerPlusCid .n { display:block; padding-top:8px; height:33px; max-height:26px; font-size:11px; white-space:nowrap; overflow:hidden;}
+	.containerPlusCid .n a{ text-decoration:none;color:#000; font-size:15px;}
+	.containerPlusCid .o { background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlusCid .e { background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlusCid .c { background: url('../imagens/c.png'); margin-right: 23px; margin-top: 0; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlusCid .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlusCid .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlusCid .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 23px;}
+	
+	/* container Verde SERVMATMED*/
+	.containerPlus.verde .no{ background: url('../imagens/nov.png') top left no-repeat;}
+	.containerPlus.verde .ne{ background: url('../imagens/nev.png') top right no-repeat; margin-left: 21px;}
+	.containerPlus.verde .n	{ background: url('../imagens/dragv.png') top center no-repeat; font-size:12px; font-weight:bold; color:#ffffff;}
+	.containerPlus.verde .o	{ background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlus.verde .e	{ background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlus.verde .c { background: url('../imagens/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlus.verde .c .content {color:#000;}
+	.containerPlus.verde .n	a{}
+	.containerPlus.verde .n	a:hover{ text-decoration:underline}
+	.containerPlus.verde .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlus.verde .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlus.verde .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+	
+	/* container Verde PRESTADOR*/
+	.containerPlusPrest.verde .no{ background: url('../imagens/nov.png') top left no-repeat;}
+	.containerPlusPrest.verde .ne{ background: url('../imagens/nev.png') top right no-repeat; margin-left: 21px;}
+	.containerPlusPrest.verde .n	{ background: url('../imagens/dragv.png') top center no-repeat; font-size:12px; font-weight:bold; color:#ffffff;}
+	.containerPlusPrest.verde .o	{ background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlusPrest.verde .e	{ background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlusPrest.verde .c { background: url('../imagens/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlusPrest.verde .c .content {color:#000;}
+	.containerPlusPrest.verde .n	a{}
+	.containerPlusPrest.verde .n	a:hover{ text-decoration:underline}
+	.containerPlusPrest.verde .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlusPrest.verde .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlusPrest.verde .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+	
+	/* container Verde CID*/
+	.containerPlusCid.verde .no{ background: url('../imagens/nov.png') top left no-repeat;}
+	.containerPlusCid.verde .ne{ background: url('../imagens/nev.png') top right no-repeat; margin-left: 21px;}
+	.containerPlusCid.verde .n	{ background: url('../imagens/dragv.png') top center no-repeat; font-size:12px; font-weight:bold; color:#ffffff;}
+	.containerPlusCid.verde .o	{ background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlusCid.verde .e	{ background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlusCid.verde .c { background: url('../imagens/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlusCid.verde .c .content {color:#000;}
+	.containerPlusCid.verde .n	a{}
+	.containerPlusCid.verde .n	a:hover{ text-decoration:underline}
+	.containerPlusCid.verde .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlusCid.verde .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlusCid.verde .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}	
+	
+	/* container Verde da tela de parametros */
+	.containerPlus.verdeparam .buttonBar { display:inline-block; position:absolute;top:8px; left:320px; float:right; width:35px; margin-top:0px; margin-right:15px}
+	.containerPlus.verdeparam .no{ background: url('../imagens/nov.png') top left no-repeat;}
+	.containerPlus.verdeparam .ne{ background: url('../imagens/nev.png') top right no-repeat; margin-left: 21px;}
+	.containerPlus.verdeparam .n { background: url('../imagens/dragv.png') top center no-repeat; font-size:12px; font-weight:bold; color:#ffffff;}
+	.containerPlus.verdeparam .o { background: url('../imagens/o.png') top left repeat-y;}
+	.containerPlus.verdeparam .e { background: url('../imagens/e.png') top right repeat-y; margin-left: 21px;}
+	.containerPlus.verdeparam .c { background: url('../imagens/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+	.containerPlus.verdeparam .c .content {color:#000;}
+	.containerPlus.verdeparam .n a{}
+	.containerPlus.verdeparam .n a:hover{ text-decoration:underline}
+	.containerPlus.verdeparam .so{ background: url('../imagens/so.png') bottom left no-repeat;}
+	.containerPlus.verdeparam .se{ background: url('../imagens/se.png') bottom right no-repeat; margin-left: 21px;}
+	.containerPlus.verdeparam .s { background: url('../imagens/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+
+/* configuracoes gerais da DIV */
+	dl { width: 397px; }
+	dl,dd { margin: 0; padding:0; background-color:#f5f5f5;}
+	dt { padding: 0; font:11px "verdana"; cursor: pointer; border-bottom:#dddddd 1px solid;	color: #009966;	height: 19px; vertical-align: middle;}
+	dt a {color: #096; text-decoration:none; display:block; background-color: #f5f5f5; font-weight:bolder;}
+	dt a:hover {color: #096; display:block; cursor:pointer; text-decoration:none;}
+	dt a:active {color: #096; display:block; cursor:pointer; text-decoration:none;}
+	dd a { color: #000; text-decoration:none; font-size:11px; padding-left:5px;}
+	dd a:hover { color: #333; background-color: #ececec;}
+	
+	a {color: #096; text-decoration:none; font-weight:bolder;}
+	a:link {color: #096; text-decoration:none; font-weight:bolder;}
+	a:hover {color: #096; text-decoration:none; font-weight:bolder;}
+	ul { list-style: none; margin:0; padding:0;}
+	li { border-bottom:#ddd 1px solid; color:#009966;margin:0;}
+	li a { display:block; margin:0; padding:0; color: #000; cursor:pointer;}
+	li:hover { background-color: #e8e8e8; color: #333;}
+	li a:active { background-color: #e8e8e8; color: #333;}
+	h1 {margin-bottom:10px; font-size:1.5em;}
+	h3 {margin-top:10px; font-size:1em;}
+	h5 {float:left; font: 10px "Verdana"; padding:3px 0 0 25px; margin:0;}
+	
+	#filho a {background: url(../imagens/abre.png) no-repeat;}
+	#Searchresult {margin:15px 0; border:solid 1px #eeeeff; padding:4px; background:#eeeeff; width:397px; }
+	#footer {margin-top:20px; font-size:60%; color:#15B;}
+	#rolagem {position:relative; width: 397px; background:#fafafa url(../imagens/fnd_dd.jpg) repeat-x; height : 100px; overflow : auto; margin: 0; padding: 0; }
+	
+	.tituloCampoEnablePopup{font-size:10px; color: #567B9C;}
+	.tituloCampoEscolheBuscaPopup{font-size:10px; color: #000000;}
+
+
+/* Paginação */
+	.pagination {font-size: 80%; }
+	.pagination a {text-decoration: none; border: solid 1px #AAE; color: #15B; }
+	.pagination a, .pagination span {display: block; float: left; padding: 0.3em 0.5em; margin-right: 5px; margin-bottom: 5px;}
+	.pagination .current {background: #26B; color: #fff; border: solid 1px #AAE; }
+	.pagination .current.prev, .pagination .current.next{color:#999; border-color:#999;	background:#fff;}
+
+
+

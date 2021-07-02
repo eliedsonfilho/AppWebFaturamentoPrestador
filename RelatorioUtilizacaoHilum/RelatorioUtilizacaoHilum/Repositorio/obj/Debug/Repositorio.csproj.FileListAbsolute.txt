@@ -1,0 +1,5 @@
+C:\Arquivos_UNIMED\Dev_Projetos\C#\RelatorioUtilizacaoHilum\Repositorio\bin\Debug\Repositorio.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\RelatorioUtilizacaoHilum\Repositorio\bin\Debug\Repositorio.pdb
+C:\Arquivos_UNIMED\Dev_Projetos\C#\RelatorioUtilizacaoHilum\Repositorio\obj\Debug\Repositorio.csprojResolveAssemblyReference.cache
+C:\Arquivos_UNIMED\Dev_Projetos\C#\RelatorioUtilizacaoHilum\Repositorio\obj\Debug\Repositorio.dll
+C:\Arquivos_UNIMED\Dev_Projetos\C#\RelatorioUtilizacaoHilum\Repositorio\obj\Debug\Repositorio.pdb

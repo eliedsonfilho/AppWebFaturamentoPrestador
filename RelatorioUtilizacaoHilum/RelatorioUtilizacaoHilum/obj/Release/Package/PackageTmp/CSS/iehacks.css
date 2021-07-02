@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* DIV PRINCIPAL */
+
+	#topo{height:55px;}
+	#lateral{position:absolute; left:0; top:57px; padding-top:1px; width:150px;}
+	#conteudo{position:relative; margin-left:152px; background-color:white;}

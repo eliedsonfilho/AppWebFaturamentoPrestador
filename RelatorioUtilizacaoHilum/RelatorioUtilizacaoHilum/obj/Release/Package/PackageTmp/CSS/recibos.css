@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* CSS Utilizado nas telas de recibos */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+.linhaNomeUnimed { text-align: right; font: bold 11px Verdana; color: Green; background-color: White;}
+.linhaTransacaoAutorizada { text-align: center; font: bold 17px Arial; color: Green; background-color: White; height: 20px;}
+.linhaNumTransacaoAutorizada { text-align: left; font: bold 12px Verdana; color: #39A869; height: 20px; background-color: White;}
+.linhaNumTransacaoNegada { text-align: left; font:bold 12px Verdana; color: #FF4322; height: 20px; background-color: White;}
+.linhaTransacaoNegada {	text-align: center; font: bold 17px Arial; color: #B70000; background-color: White;}
+.linhaTituloAutorizacao { text-align: left; font: bold 13px Verdana; color: #737373; background-color: White;}
+.linhaTituloNomeBeneficiario { text-align: left; font: bold 13px Verdana; color: #737373; background-color: White;}
+.linhaNomeBeneficiario { text-align: left; font: bold 13px Verdana; color: #404040; background-color: White;}
+.linhaTipoRecibo { text-align: left; font: bold 11px Verdana; color: Green; background-color: White;}
+.linhaTituloRecibo { text-align: left; font: bold 13px Verdana; color: #404040; background-color: White;}
+.linhaTituloReciboVerde { text-align: left; font: bold 16px Verdana; color: #008040; background-color: White;}
+.linhaTituloReciboVermelha { text-align: left; font: bold 16px Verdana; color: #CC0000; background-color: White;}
+.linhaDadosAutorizacao { text-align: left; font: bold 13px Verdana; color: #404040; background-color: White;}
+.linhaCodBeneficiario {	text-align: left; font: bold 13px Verdana; color: #004A01; background-color: White;}
+.linhaDadosCorpoAutorizacao { text-align: left; font: bolder 11px Verdana; color: #404040; background-color: White;}
+.linhaDadosCorpoAutorizacao_R { text-align: right; font: bolder 11px Verdana; color: #404040; background-color: White;}
+.linhaDadosServCorpoAutorizacao { text-align: left; font: 11px Verdana;	color: #404040; vertical-align:top; background-color: White;}
+.linhaDadosServCorpoAutorizacaoNegada {	text-align: left; font: 11px Verdana; color: red; background-color: White;}
+.linhaDadosServCorpoAutorizacaoAutorizado { text-align: left; font: 11px Verdana; color: #008040; background-color: White;}
+.linhaDadosServCorpoAutorizacaoCancela { text-align: left; font: 11px Verdana; color: #404040; background-color: #f2f2f2;}
+.linhaDadosServAutCancelaRelat { text-align: left; font: 11px Verdana; color: #FF4322; background-color: White;}
+.linhaTituloDadosCorpoAutorizacao {	text-align: left; font: bolder 11px Verdana; color: #737373; background-color: White;}
+.linhaDivisora { height: 1px; width: 100%; background-color: #E6E6E6;}
+.linhaDivisora2 { height: 1px; width: 100%; background-color: #F2F2F2;}
+.linhaAssinatura { height: 1px;	width: 40%; background-color: Gray;}
+.txt_formLine7 { text-align: left; font: bold 12px Verdana; color: White; background-color: #4a864a;}
+.espacamento { height: 5px; width: 100%;}
+.tituloTextoTopoMatricial {	text-align: left; font: bold 11px Verdana; color: Black;}
+.TextoTopoMatricial { text-align: left; font: 11px Verdana; color: Black;}
+.tituloTextoMatricial {	text-align: left; font: bold 10px Verdana; color: Black;}
+.textoMatricial { text-align: left; font: 10px Verdana; color: Black;}
+.linhaTituloRelatorio { text-align: left; font: bold 17px Arial; color: Green; background-color: White; height: 20px;}
+.reciboDocAuditoria { font: 11px Verdana; border:0; color:#000000; background-color:#ffffff; overflow:hidden;}
+
+
+/* Usado para imprimir as linhas dos recibos das transacoes ---------------------- */
+a.linkImpressao { text-decoration: none; font: bold 11px Verdana; color: #558CEE;}
+a.linkImpressao:hover { text-decoration: none; font: bold 11px Verdana; color: #E39502;}
+.linhasParaImpressao {border:0; border-top:1px solid #cccccc; color:#cccccc; background-color:#888888;}
+.proximaPaginaDaImpressao{page-break-after: always;}
+.espacamentoAssinatura { height: 50px; width: 100%;}
+.bgQuebraLinha {background:url('../imagens/bg_quebra.jpg');}
+
+/*******************************************************************************************************
+* Paper de resposta das transacoes
+*********************************/
+
+#papermargin {margin:5px;}
+#papermargin .papershadow {border-right:3px solid #f0f0f0; border-bottom:3px solid #f0f0f0;}
+#papermargin .paperfill {padding:5px; background-color:#ffffff;}
+
+

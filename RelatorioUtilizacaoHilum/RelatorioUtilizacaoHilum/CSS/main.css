@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* DIV PRINCIPAL */
+	body{background:no-repeat left top #ffffff url(../imagens/bgtopo.png); margin:0; padding:0;}
+	
+	#topo{height:55px; max-height:54px;}
+	#lateral{float:left; padding-top:2px; width:150px;}
+	#conteudo{position:relative; margin-left:152px; margin-top:-1px; background-color:white;}
+	
+
+/* MENU LATERAL ESCONDE */
+	.menubv {width: 148px; padding: 0; margin: 0; font: 11px Verdana, sans-serif;}
+	.menubv ul { list-style: none; margin: 0; padding: 0; }
+	.menubv li { border-top: 2px solid #7AB37A; border-bottom: 1px solid #006600; margin: 0; }
+	.menubv li div { display: block; padding: 2px 2px 3px 0.2em; border-left: 3px solid #2B682B; border-right: 3px solid #2B682B; background-color: #2B682B; color: #ffffff; text-decoration: none; font:bold 12px Verdana;}
+	.menubv li a { display: block; padding: 2px 2px 3px 0.2em; border-left: 3px solid #5E9B5E; border-right: 3px solid #5E9B5E; background-color: #5E9B5E; color: #ffffff; text-decoration: none; }
+	.menubv li a:hover { border-left: 3px solid #A5CBA5; border-right: 3px solid #A5CBA5; background-color: #A5CBA5; color: #003300; }
+	
+	/* Fix IE. Hide from IE Mac \*/
+	* html ul.menubv li { float: left; height: 1%; }
+	* html ul.menubv li div {float: left; width:148px;}
+	* html ul.menubv li a { height: 1%; }
+	/* End */
+	
+	#faq h2 {margin:0 0 1px; padding: 2px 2px 3px 2px; border-top: 2px solid #568F56; background-color: #4A864A; color: #ffffff; text-decoration: none; font: bold 11px Verdana, sans-serif;}
+	#faq h2 a:link, h2 a:visited {color:#ffffff; text-decoration:none;}
+	#faq h2 a:hover, h2 a:focus {color:#ffffff;}
+	#faq h2.maximized { background:#4A864A url(../imagens/max.jpg) center left no-repeat; padding-left:16px; cursor:pointer;}
+	#faq h2.minimized { background:#4A864A url(../imagens/min.jpg) center left no-repeat; padding-left:16px; cursor:pointer;}
+
+	.div_blocos  {text-align: left; font: bold 12px Verdana; background-color: #005500; color: White;}
+    .div_blocos1 {text-align: left; font: bold 12px Verdana;	background-color: #006600; color: White;}
+	.nomeunimed  {font: 15px Arial, Helvetica, sans-serif; color: White; text-transform: none;}
+	.nomeunimed1  {font: 15px Arial, Helvetica, sans-serif; color: White; text-transform: none;}
+	
+	
+	
+	

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelatorioUtilizacaoHilum", "RelatorioUtilizacaoHilum\RelatorioUtilizacaoHilum.csproj", "{6D0FF7C0-00A7-41E1-823E-D0DEFB502749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{E7BCBF82-C815-4FD9-AE87-E0A092BBB507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0FF7C0-00A7-41E1-823E-D0DEFB502749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0FF7C0-00A7-41E1-823E-D0DEFB502749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0FF7C0-00A7-41E1-823E-D0DEFB502749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0FF7C0-00A7-41E1-823E-D0DEFB502749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BCBF82-C815-4FD9-AE87-E0A092BBB507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BCBF82-C815-4FD9-AE87-E0A092BBB507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BCBF82-C815-4FD9-AE87-E0A092BBB507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BCBF82-C815-4FD9-AE87-E0A092BBB507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/*    CSS Utilizado nos formularios   */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+/********************************************************************************************************
+* Contorno da applet da BIOMETRIA.
+*********************************/
+#applet { position: relative; top: 40px; left: 122px; border: 1px solid #CBCBCB; width: 400px; height: 300px;}
+
+/* ******************************************************************************************************
+ * SEPARADORES E DIVISORES DE BLOCOS(paddings).
+/* *********************/
+td.espacamento			 { padding:5px;}
+td.espacamento_menor	 { padding-top:5px;padding-bottom:5px;padding-left:2px;padding-right:2px;}
+.espacamentoTopoConteudo { position:relative; padding-top:30px;}
+.linhaDivisoriaTopo 	 { border-bottom: 1px solid #CCCCCC; padding:10px 0 0 0; line-height:1px; font: 5px Verdana;}
+.linhaDivisoriaBase 	 { border-top: 1px solid #CCCCCC; padding:0 0 10px 0; line-height:1px; font: 5px Verdana;}
+.divisorDeBlocos  		 { height: 7px; width: 100%;}
+.subtituloDivisao 		 { text-align: left; font: bold 11px Verdana; padding-left: 5px; background-color: #E3FFE6; height: 19px; vertical-align: middle; color: #359E62;}
+/* ******************************************************************************************************
+ * CABEÇALHO DAS PAGINAS.
+/* *********************/
+.cabecalho {text-align: center; font: bold 15px arial; line-height:22px; background-color: #5e9b5e; color: White; border-bottom: 2px solid #DADADA;}
+
+/* ******************************************************************************************************
+ * IMG QUE APARECE NA LC_PRINCIPAL.JSP  
+/* ***********************************/
+.imgInicio { position:relative; margin-top:60px; margin-right:65px;}
+
+/* ******************************************************************************************************
+ * UTILIZADO NAS LABELS DE FORMS
+/* *****************************/
+.txt_formBack 		{ text-align: left; font: bold 9px Verdana; background-color: White;}
+.txt_formBack2		{ text-align: left; font: bold 9px Verdana; color: #BABABA; background-color: White; }
+.txt_formBack3 		{ text-align: right; font:bold 9px Verdana; color: #BABABA; background-color: White; }
+.txt_formBack4 		{ text-align: left; font: bold 9px Verdana; color: black; background-color: #F9F9F9; }
+.txt_formBack5 		{ text-align: left; font: bold 9px Verdana; color: #5C5C5C; background-color: #F9F9F9;}
+.txt_formBack4_R 	{ text-align: right; font: bold 9px Verdana; color: black; background-color: #F9F9F9; }
+.txt_formBack5_R	{ text-align: right; font: bold 9px Verdana; color: #5C5C5C; background-color: #F9F9F9;}
+.txt_formTitle 		{ text-align: left; font: bold 11px Verdana; color: #595959; background-color: #DADADA;}
+.txt_formTitleMural { text-align: left; font: bold 11px Verdana; color: #ffffff; background: #DADADA url(../imagens/bg_botao.jpg);}
+.txt_formTitle2		{ text-align: left; font: bold 10px Verdana; color: #595959; background-color: #DADADA;}
+.txt_formTitle3		{ text-align: left; font: bold 11px Verdana; color: Silver; background-color: #006600;}
+.txt_formTitle4		{ text-align: left; font: bold 10px Verdana; color: #595959; background-color: #EAEAEA;}
+.txt_formTitle4_R	{ text-align: right; font: bold 10px Verdana; color: #595959; background-color: #EAEAEA;}
+.txt_formTitle5		{ text-align: right; font: bold 11px Verdana; color: #595959; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle5_L	{ text-align: left; font: bold 11px Verdana; color: #595959; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle5_C	{ text-align: center; font: bold 11px Verdana; color: #595959; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle6		{ text-align: left; font: bold 11px Verdana; color: Green; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle7		{ text-align: left; font: bold 11px Verdana; color: #999999; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle8		{ text-align: left; font: 10px Verdana; color: #595959; background-color: #DADADA;}
+.txt_formTitle9		{ text-align: right; font: bold 10px Verdana; color: #595959; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle10	{ text-align: left; font: bold 10px Verdana; color: White; vertical-align: middle;}
+.txt_formTitle11	{ text-align: left; font: bold 11px Verdana; color: #246BEA; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle12	{ text-align: right;	font: bold 11px Verdana; color: #BF0000; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle13	{ text-align: left; font: bold 10px Verdana; color: #004E99; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle13_R	{ text-align: right; font: bold 10px Verdana; color: #004E99; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle13_R_Disabled	{ text-align: right; font: bold 10px Verdana; color: #ccc; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle14	{ text-align: left; font: bold 11px Arial; color: #004E99; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle15	{ text-align: right; font: bold 10px Verdana; color: #004E99; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle16	{ text-align: left; font: bold 11px Arial; color: Gray; background-color: #F9F9F9; vertical-align: middle;}
+.txt_formTitle17	{ text-align: right;	font: bold 11px Arial; color: Gray; background-color: #F9F9F9; vertical-align: middle;}
+.tituloCampoEnable  { text-align: left; font: bold 11px Arial, Helvetica, sans-serif; padding: 3px 0 0 2px; height: 20px; color: #4C4C4C;}
+.tituloCampoDisable { text-align: left;	font: bold 11px Arial, Helvetica, sans-serif; padding: 3px 0 0 2px; height: 20px; color: #BABABA;}
+
+/*******************************************************************************************************
+* UTILIZADO NAS LINHAS DE FORMS
+*******************************/
+.bodyMeio				 { margin: 0;}
+.bodyMeioLogin			 { margin: 10% 0 0 0;}
+.txt_tituloSuperior		 { text-align: center; font: bold 15px arial; background-color: #5e9b5e; color: White;}
+.txt_formLine			 { text-align: left; font: 10px Verdana; background-color: #EAEAEA;}
+.txt_formLine1			 { text-align: left; font: 9px Verdana; color: Gray; background-color: #F9F9F9; }
+.txt_formLine2			 { text-align: left; font: 10px Verdana; background-color: #F9F9F9;}
+.txt_formLine3			 { text-align: left; font: 10px Verdana; background-color: #FFFFFF;}
+.txt_formLine4			 { text-align: left; font: 10px Verdana; background-color: #F5F7EC;}
+.txt_formLine5			 { text-align: left; font: 11px Verdana; background-color: #C5DCC9;}
+.txt_formLine6			 { text-align: left; font: 11px Verdana; color: White; background-color: #5e9b5e;}
+.txt_formLine7			 { text-align: left; font: bold 12px Verdana; color: White; background-color: #4a864a;}
+.txt_formLine8			 { text-align: left; font: bold 12px Verdana; color: White; background-color: #006600;}
+.txt_formLine9			 { text-align: left; font: 10px Verdana; background-color: #5A5A5A;}
+.txt_formLineOver		 { text-align: left; font: 10px Verdana; background-color: #DCEFFD;}
+.linhaFormulario1 		 { font: 10px Verdana; color: #004624; background-color: #E8FFF4; }
+.linhaFormulario2 		 { font: 10px Verdana; color: #004624; background-color: #F2FFF9; }
+.linhaTituloFormulario   { font: bold 11px Verdana; color: Green; background-color: White; }
+.campoTextoEnable 		 { text-align: left; font: bold 11px Arial, Helvetica, sans-serif; border: 1px solid #B5B5B5; padding-left: 3px; color: #4C4C4C; background-color: #FCFCFC; }
+.campoTextoEnableDiv 	 { text-align: left; font:11px verdana; color: #4C4C4C; border: 1px Solid #7F9DB9; padding: 2px; background-color: #FCFCFC;}
+.campoTextoDisable 		 { text-align: left; font: bold 11px Arial, Helvetica, sans-serif; border: 1px solid #CECECE; padding-left: 3px; color: #939393; background-color: #FCFCFC; }
+.campoParametro 		 { text-transform: none; font: bold 11px Verdana; color: #4A4A4A; }
+a.linkMenuPrincipal		 { text-align: left; font: 11px Verdana; color: White; text-decoration: none;}
+a.linkMenuPrincipal:hover{ text-align: left; font: 11px Verdana; color: #CCFF33; text-decoration: none;}
+a.linkMenuSuperior		 { text-align: left; font: bold 11px Verdana; color: #5A5A5A; text-decoration: none;}
+a.linkMenuSuperior:hover { text-align: left; font: bold 11px Verdana; color: #00AA66; text-decoration: none;}
+.linhaAutorizada 	     { text-align: left; font: bold 10px Verdana; color: #2C8552; background-color: #F9F9F9;}
+.linhaNegada 			 { text-align: left; font: bold 10px Verdana; color: #FF4848; background-color: #F9F9F9;}
+
+/*******************************************************************************************************
+* UTILIZADO NAS LINHAS DE RELATÓRIOS
+************************************/
+.txt_formLineRel	  { text-align: left;	font: 10px Verdana;}
+.txt_tituloSuperiorRel{	text-align: center;	font: bold 26px arial; color: black; }
+.txt_reduzido         { font-size:55%;}
+
+/*******************************************************************************************************
+* BOTOES DOS FORMS
+******************/
+.botaoPadraoON  { border: #0099CC 1px solid; padding: 0 3px; font: 10px verdana; background: #CCEBFF url(../imagens/bg_botao_on.jpg) repeat-x; cursor: pointer; color: #00769D; height: 19px;}
+.botaoPadraoOFF { border: #b8b7b4 1px solid; padding: 0 3px; font: 10px verdana; background: #efefef url(../imagens/bg_botao_off.jpg) repeat-x; cursor: pointer; color: #ababab; height: 19px;}
+.botaoPadraoXX  { border: #FF4848 1px solid; padding: 0 3px; font: 10px verdana; background: #FF4848 url(../imagens/bg_botao_xx.jpg) repeat-x; cursor: pointer; color: #FF0000; height: 19px;}
+.botaoPadrao    { border: #005500 1px solid; padding: 2px 4px 4px 4px; margin:0; font: bold 10px "verdana"; background: #005500 url(../imagens/bg_botao.jpg) repeat-x left top; cursor: pointer; color: #ffffff; text-align:center; height: 22px;}
+.botaoCartao    { border: #006622 1px solid; padding: 2px 4px 4px 4px; margin:0; font: bold 10px "verdana"; background: #f5f5f5 url(../imagens/bg_botaolar.jpg) repeat-x left top; text-align:center; color: #006622; height: 22px;}
+.botaoForm 		{ border: #666666 0 solid; font: bold 11px Arial; color: #333333; text-transform: none;}
+.botaoForm2 	{ border: 0 solid; font: bold 11px Arial; color: #333333; text-transform: none;}
+.botaoEnviar 	{ border: 1px solid #5b9c58; padding: 0 3px; font:11px verdana; cursor: pointer; background: #e4f5e1 url(../imagens/bg_botao.jpg) repeat-x; color: #2e802e; height: 19px; }
+
+/*******************************************************************************************************
+* DIV DE LOGIN NO SISTEMA
+*************************/
+#telalogin .boxLogin { position:absolute; width: 480px; height: 228px; top:50%; left:50%; margin:-114px 0 0 -240px; padding: 2px 1px; border: 1px solid #CCC; background-color: #FFFFFF;}
+
+/*******************************************************************************************************
+* Textos de preenchimento obrigatorio.
+**************************************/
+.autorizado { font: 11px Arial; color: #006600; text-transform: none;}
+.negado     { font: 11px Arial;	color: #FF4500;	text-transform: none;}
+
+/*******************************************************************************************************
+* Texto menu cinza.
+*******************/
+.caps10A { font: bold 14px Arial; color: #006600; text-transform: none;}
+.caps10AD{ font: 15px Arial; color: #006600; text-align: right;}
+.caps10N { font: bold 14px Arial; color: Red; text-transform: none;}
+.caps10E { font: bold 14px Arial; color: Blue; text-transform: none;}
+
+/*******************************************************************************************************
+* UTILIZADO NOS TITULOS DE CAMPOS
+*********************************/
+.txt_formTitLine { text-align: left; font: bold 10px Verdana; background-color: #E0E0E0;}
+.txt_formTitLine2{ text-align: left; font: bold 10px Verdana; background-color: #F9F9F9;}
+
+/*******************************************************************************************************
+* MESSAGE AREA OK | ERRO | CONFIRMACAO
+**************************************/
+.txt_msgOK       { text-align: left; font: bold 11px Verdana; color: #24AA25; background-color: #E3FFE6;}
+.txt_msgOK1      { text-align: left; font: bold 11px Verdana; color: #24AA25;}
+.txt_msgOK3      { text-align: left; font: bold 14px Verdana; color: #24AA25; background-color: #E3FFE6;}
+.txt_msgOK2      { text-align: left; font: bold 13px verdana; color: White; background-color: #cccccc;}
+.txt_msgAlert    { text-align: left; font: bold 11px Verdana; color: #C6A900; background-color: #FFFFBB;}
+.txt_msgErro     { text-align: left; font: bold 11px Verdana; color: #FF0000; padding:0px 10px 0px 10px;}
+.txt_msgErro2    { text-align: left; font: bold 14px Verdana; color: #FF0000; background-color: #FFE1E1;}
+.txt_msg         { font: bold xx-small Verdana; color: #FF0000;}
+.txt_msg1        { font: bold 12px Verdana; color: #FF0000;}
+.txt_msgConfirma { font: small-caps bold 11px verdana; color: red; line-height: 30px;}
+
+/*******************************************************************************************************
+* Links MENU | EMAIL | BARRA INFERIOR
+*************************************/
+a.LinkMenu		 		  { font: bold 11px Arial; color: #FFFFFF; text-decoration: none;}
+a.LinkMenu:hover 		  { font: bold 11px Arial; color: #FFF3C1; text-decoration: none;}
+a.LinkRelatorios 		  { font: bold 10px verdana; color: #006633; text-decoration: none;}
+a.LinkRelatorios:hover    { font: bold 10px verdana; color: #009F51; text-decoration: none;}
+a.LinkEmail 			  { font: 10px Verdana; color: #006600; text-decoration: none;}
+a.LinkEmail:hover 		  { font: 10px Verdana; color: #FF4500; text-decoration: none;}
+a.linkListagem 			  { font: bold 11px Verdana; color: #006400; text-decoration: none;}
+a.linkListagem:hover      { font: bold 11px Verdana; color: Green; text-decoration: none;}
+a.linkBarraInferior       { font: bold 10px Arial; color: #8E8E8E; text-decoration: none;}
+a.linkBarraInferior:hover { font: bold 10px Arial; color: #FF9900; text-decoration: none;}
+a.linkBarraInferior2      { font: bold 11px Arial; color: #8E8E8E; text-decoration: none;}
+a.linkBarraInferior2:hover{	font: bold 11px Arial; color: #FF9900; text-decoration: none;}
+
+/*******************************************************************************************************
+* Textos de preenchimento obrigatorio.
+**************************************/
+.requerido {font: bold 10px verdana; color: #FF4500; text-transform: none;}
+
+/*******************************************************************************************************
+* Texto Menu VERDE | CINZA
+**************************/
+.caps  				  { font: bold 11px Arial; color: #006600; text-transform: none; }
+.caps1 				  { font: 11px Arial; color: #333333; text-transform: none; }
+.caps2 				  { font: bold 12px Arial; color: #333333;	text-transform: none; }
+.caps10				  { font: bold 13px Arial;	color: #006600;	text-transform: none; }
+.caps11				  { font: bold 13px Arial;	color: #333333;	text-transform: none; }
+.caps12				  { font: bold 16px Arial; color: #24AA25;	text-transform: none; }
+.caps13				  { font: bold 16px Arial;	color: #FF5151;	text-transform: none; }
+.caps14				  { font: bold 14px Arial;	color: #24AA25; text-transform: none; }
+.caps8 				  { font: bold 11px Arial; color: #333333;	text-transform: none; }
+.caps8_maior 		  { font: bold 13px Verdana; color: #666666; text-transform: none; }
+.caps8_enabled   	  { font: bold 11px Arial; color: #4C4C4C;	text-transform: none; background-color: #FCFCFC;}
+.caps3 				  { font: bold 11px Arial; color: #FFFFFF; text-transform: none; }
+.caps4 				  { font: bold 11px Arial; color: #8E8E8E;	text-transform: none; }
+.caps7 				  { font: bold 12px Arial; color: #2E8B57;	text-transform: none; }
+.caps17				  { font: 15px Arial; color: White; text-transform: none; }
+.caps6				  { font: 10px Arial; color: White; text-transform: none; }
+.caps5 				  { font: bold 11px Arial; color: #8E8E8E; text-transform: none;}
+.caps15				  { font: bold 12px Arial; color: #636363;	text-transform: none;}
+.inputTxtParametroGrd { width: 250px;}
+.inputTxtParametroPeq { width: 50px;}
+.fundoLinhaBarraMenu  { background-color: #FFC986;}
+.fundoLinhaBarraMenu2 { background-color: #8AAEEE;}
+.fundoBarraMenu 	  { text-align: left; font: bold 11px Verdana; color: #F78E00; background-color: #FFF3E3;}
+.fundoBarraMenu2	  { text-align: left; font: bold 11px Verdana; color: #3D63AC; background-color: #D9E4F4;}
+.fundoBarraMenu3	  { text-align: left; font: bold 11px Verdana; color: #F78E00;}
+a.linkBarraMenu 	  { text-align: left; font: bold 11px Verdana; color: #F78E00; text-decoration: none; vertical-align:text-top;}
+a.linkBarraMenu2	  { text-align: left; font: bold 11px Verdana;	color: #3D63AC; text-decoration: none;}
+a.linkBarraMenu:hover { text-align: left; font: bold 11px Verdana; color: #AC6300; text-decoration: none; vertical-align:text-top;}
+a.linkBarraMenu2:hover{ text-align: left; font: bold 11px Verdana; color: #243B68; text-decoration: none;}
+.center {text-align: center !important;}
+
+/*******************************************************************************************************
+* Linha de informação - Azul | Vermelha
+***************************************/
+.SLineBlue	{ font: bold 10px Verdana; color: Blue; text-transform: none; }
+.SLineRed	{ font: bold 10px Verdana; color: red; text-transform: none; }
+
+/*******************************************************************************************************
+* Ponteiro para imagens. Efeito Link.
+*************************************/
+img.linkImagem { cursor: pointer; }
+.tabelaLeituraDigitacaoCartao { height: 179px; width: 283px; background: url(../imagens/cartaoDigitacao.gif) no-repeat;}
+
+/*******************************************************************************************************
+* Campo READONLY.
+*********************************/
+.campo_readonly { color:#444444; background-color:#f9f9f9; border-color:#CCCCCC; }
+.readonly { color:#999999; background-color:#f5f5f5; border:1px solid #CCCCCC; }
+
+/*******************************************************************************************************
+* Campo Select / text / readonly
+*********************************/
+.textclass        		{ background-color:#ffffff; font: bold 11px Arial; color:#333333; padding:2px; border: #bbbbbb 1px solid; }
+.textcomboclass         { margin-right:6px; background-color:#ffffff; font: bold 11px Arial; color:#333333; padding:2px; border: #bbbbbb 1px solid;}
+.textcomboreadonlyclass { margin-right:6px; background-color:#f0f0f0; font: bold 11px Arial; color:#333333; padding:2px; border: #bbbbbb 1px solid;}
+.textreadonlyclass 		{ background-color:#f0f0f0; font: bold 11px Arial; color:#333333; padding:2px; border: #bbbbbb 1px solid;}
+.textfocusclass   		{ background-color:#E8FFD9; font: bold 11px Arial; color:#1E5937; padding:2px; border: #359E62 1px solid;}
+
+.file_1 		   		{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #333333; font-weight: bold; text-transform: none; padding-left: 10px; height: 20px; }
+
+/*******************************************************************************************************
+* Definição de tamanhos de campos
+*********************************/
+.w200 {
+	width: 200px;
+	min-width: 200px;
+}
+
+.w150 {
+	width: 150px;
+	min-width: 150px;
+}
+
+.w120 {
+	width: 120px;
+	min-width: 120px;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* ------------------------------------- */
+/* ------------------------------------- */
+/* CSS Utilizado nas telas de relatorios */
+/* ------------------------------------- */
+/* ------------------------------------- */
+
+caption { height: 25px; width:100%; border:1px solid #c0c0c0; margin-left: -1px; line-height: 25px; vertical-align: middle; padding-top: 5px;}
+.linhaNomeUnimed { text-align: right; font: bold 11px Verdana; color: Green; background-color: White;}
+.txt_formLine7 { text-align: left; font: bold 12px Verdana; color: White; background-color: #4a864a;}
+.linhaDescricao { text-align: left; font: bold 12px Verdana; color: #39A869; background-color: White; height: 20px;}
+.linhaTituloNomePrestador {	text-align: left; font: bold 13px Verdana; color: #737373; background-color: White;}
+.linhaNomePrestador { text-align: left; font: bold 13px Verdana; color: #404040; background-color: White;}
+.linhaDataRelatorio { text-align: left; font: 10px Verdana; color: #404040; background-color: White;}
+.linhaDataRelatorio2 { text-align: left; font: 12px Arial; color: #404040; background-color: White;}
+.linhaTitDataRelatorio { text-align: center; font: bold 10px Verdana; color: #404040; background-color: #F4F4F4;}
+.linhaTitDataRelatorioAnalitico { text-align: left; font: bold 10px Verdana; color: #404040; background-color: #F4F4F4;}
+.linhaTitDataRelatorioAnaliticoS { text-align: left; font: bold 10px Verdana; color: #ffffff; background-color: #a0a0a0;}
+.linhaTitDataRelatorio2 { font: bold 10px Verdana; color: #404040; background-color: White;}
+.linhaTitDataRelatorio3 { font: bold 10px Verdana; color: #737373; background-color: White;}
+.colunaAutorizada { text-align: center; font: bold 10px Verdana; color: #2C8552; background-color: White;}
+.colunaTpSaida { text-align: center; font: 10px Verdana; color: #2C8552; background: White;}
+.colunaNegada {	text-align: center; font: bold 10px Verdana; color: #FF4848; background: White;}
+.colunaEstudo { text-align: center; font: bold 10px Verdana; color: #1F67E6; background: White;}
+.linhaDivisora { background-color: #E6E6E6; height: 1px; width: 100%;}
+.linhaAssinatura { background-color: Gray; height: 1px;	width: 40%;}
+.linhaDivisora2 { background-color: #F2F2F2; height: 1px; width: 100%;}
+.espacamento { height: 5px;	width: 100%;}
+.fndBC { background:white;}
+a.linkImpressao { text-decoration: none; font: bold 11px Verdana; color: #558CEE;}
+a.linkImpressao:hover {	text-decoration: none; font: bold 11px Verdana; color: #E39502;}
+a.linkImpressaoP { text-decoration: none; font: bold 10px Verdana; color: #558CEE;}
+a.linkImpressaoP:hover { text-decoration: none; font: bold 10px Verdana; color: #E39502;}
+.linhaTituloRelatorio {	text-align: left; font: bold 17px Arial; color: #558CEE; background-color: White; height: 20px;}
+.colunaMsg { text-align: center; vertical-align: middle; font: bold 11px Verdana; color: #BF0000;}
+.linhaTituloTotalGeral { text-align: center; font: bold 13px Verdana; color: #737373; border-bottom:silver 1px solid; background-color: #f5f5f5;}
